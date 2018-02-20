@@ -1,0 +1,76 @@
+* {
+            box-sizing: border-box;
+}
+
+.body {
+            background-image: url("https://raw.githubusercontent.com/Tesla85/Basic-Portfolio/master/vintage-concrete.png");
+}
+
+.me {       float: left;  
+            padding: 10px;
+}
+.name { 
+            background-color: #4aaaa5;
+            color: white;
+            font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
+
+        }
+.about { 
+            font-family: 'Georgia', Times, 'Times New Roman', serif;
+            color: #4aaaa5
+        }
+.connect { 
+            color: #4aaaa5;
+            background-color: #ffffff;
+            width: 270px;
+            border: 1px solid gray;
+            padding: 5px;
+            margin: 30px;
+            float: right;
+            font-size: 30px;
+        }
+
+.p { 
+            color: #777777;
+            font-size: 25px;
+    }
+.div { 
+            background-color: #ffffff;
+            width: 650px;
+            border: 1px solid gray;
+            padding: 5px;
+            margin: 30px;   
+        }
+.ul { 
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+    }
+.li { 
+            float: right;
+            display: block;
+            color: green;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+    }
+.footer { 
+            background: rgb(78, 73, 73);
+            text-align: center;
+            color: #777777;
+            height:100px
+        }
+
+@media screen and (max-width: 768px) {
+
+.wrapper {
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+}
+
